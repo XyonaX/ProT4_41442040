@@ -1,0 +1,4 @@
+Link del repositorio: https://github.com/XyonaX/ProT4_41442040/tree/main
+
+En caso de que tengan alguna configuracion personal de mysql por favor cambiar
+en el archivo database.js el user y password correspondiente.
