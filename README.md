@@ -8,7 +8,8 @@ Este proyecto es una REST API para la gestión de una biblioteca, permitiendo re
 - **Obtener un libro por ID:** Recupera la información de un libro específico utilizando su ID.
 - **Agregar un nuevo libro:** Permite agregar un nuevo libro a la biblioteca.
 - **Actualizar un libro:** Modifica la información de un libro existente.
-- **Eliminar un libro:** Elimina un libro de la base de datos utilizando su ID o ISBN.
+- **Eliminar un libro por ID:** Elimina un libro de la base de datos utilizando su ID.
+- **Eliminar un libro por ISBN:** Elimina un libro de la base de datos utilizando su ISBN.
 
 ## Requisitos Previos
 
@@ -65,11 +66,11 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
 La API expone los siguientes endpoints:
 
 - **GET /libros:** Retorna una lista de todos los libros.
-- **GET /libros/:id:** Retorna los detalles de un libro específico.
-- **POST /libros:** Agrega un nuevo libro.
-- **PUT /libros/:id:** Actualiza la información de un libro existente.
-- **DELETE /libros/:id:** Elimina un libro utilizando su ID.
-- **DELETE /libros/isbn/:ISBN:** Elimina un libro utilizando su ISBN.
+- **GET /libros/:id:** Retorna los detalles de un libro específico por ID.
+- **POST /libro:** Agrega un nuevo libro.
+- **PUT /libro:** Actualiza la información de un libro existente.
+- **DELETE /libro:** Elimina un libro utilizando su ID, que se debe enviar en el cuerpo de la solicitud.
+- **DELETE /libros/:ISBN:** Elimina un libro utilizando su ISBN, que se debe pasar como parámetro en la URL.
 
 ## Dependencias
 
