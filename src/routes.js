@@ -10,3 +10,4 @@ router.post('/libro', libro.addBook);
 router.delete('/libro',libro.deleteBook);
 router.put("/libro",libro.updateBook);
 router.get('/libros/:id',libro.getOne);
+router.delete('/libros/:ISBN',libro.deleteBookISBN);
