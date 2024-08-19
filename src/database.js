@@ -4,7 +4,7 @@ import mysqlConnection from 'mysql2/promise.js';
 const properties = {
     host: 'localhost',
     user: 'root',
-    password: 'root',
+    password: '',
     database: 'rest-api'
 };
 
